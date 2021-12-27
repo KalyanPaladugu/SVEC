@@ -44,3 +44,4 @@
 - git status
 - Do git configurations (set user.name and user.email)
 - commit data with commit message
+- Push thecode into Github
