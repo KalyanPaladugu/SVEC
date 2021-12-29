@@ -156,6 +156,8 @@ selector {
 + align-items
 + align-self
 
+
+### Animations
 ### Responsive Web Design
 #### Flex-box
 
@@ -165,14 +167,95 @@ selector {
 		- justify-content
 		- flex-direction
 		- flex-flow
-		-
-#### Task2:
-==========
+Task2:
+======
 
 - Index.html
 - Register.html
 - Login.html
 
+###  Media Quries
+
+- Extra small devices (Mobiles )
+	- max-width:600px
+- Small devices (Large Phones)
+	- min-width:600px
+	-   768
+- Medium Devices (small laptops)
+	- min-width:768px
+- Large Devices (Large laptops or desktops)
+	- min-width:992px
+- Extra Large Devices ()
+	- min-width:1200px
+
+
+```
+@media only screen (min-width:320px) and (max-width:500px){
+	CSS Code
+}
+```
+
+### Bootstrap 4.6
+
+- It is a CSS framework
+Task3:
+======
+
+	- Navbar with Responsive
+
+- module (collections of functions and classes )
+- package (collections of modules)
+- library (collection of packages)
+- framework (collections of library)
+ + module --> Package   --> Library --> Framework
+
+ + Type of Modes
+	- offline
+	- online
+		- CDN links
+
++ background-color - bg
++ text-white
+
++ Margin in Bootstrap (m-* (0-5))
+	- 0  --> 0rem
+	- 1  -->0.25rem (4px)
+	- 2  --> 0.5rem (8px)
+	- 3  --> 1rem (16px)
+	- 4  --> 1.5rem (24px)
+	- 5  --> 3rem (48px)
+	- m (margin in all directions)
+	- ml-5 (margin-left)
+	- mt (margin-top)
+	- mb (margin-bottom)
+	- mr (margin-right)
++ Paading (padding-left --> pl-5)
+
++ colors
+	- primary
+	- secondary
+	- info
+	- success
+	- warning
+	- danger
+	- light
+	- dark
+	- white
+
++ We can use color classes for
+	-  Buttons (btn btn-primary)
+	-  text  (text-white)
+	-  background (bg-secondary)
+	-  alerts (alert alert-primary)
+
++ Grid System
+	-   col-sm-12
+	- sm (small devices)
+	- md (medium devices)
+	- lg (large devices)
+	- xl (Extra large devices)
++ Modal
++ Table
 ##### Reference Links
 - [Flaticon](https://www.flaticon.com/)
 - [SVG Icons](https://freesvg.org/)
