@@ -256,6 +256,147 @@ Task3:
 	- xl (Extra large devices)
 + Modal
 + Table
+
+
+####  JavaScript
+
++ In 1995 `Brenden Eich` introdcued JavaScript (ES-262)
++ JavaScript loosely toupled and dynamic language
++ It is a text-based programming language and we can use in client-side and server-side (Node.js) for dynamic web applications
+- ECMA-Script (ES-6)
+	- let & const
+	- map()
+	- arrow function
+	- classes
+	- spread operator
+	- rest parameter
++ Datatypes
+	- Number
+	- BigInt (2^53-1)
+	- String
+	- Boolean
+	- Undefine
+	- Null
+	- Object
+	- Array
+
++ variables
+	- var, let & const
+	- Scope  
+		- function level --> var
+		- block level   --> let & const
+	- Redefine  --> Var, let
+	- Redeclare  --> var
++ `typeof()`
++ Object
+
+```
+ {
+	 name:"Kalyan"
+ }
+```
++ Array
+
+### Alerts
+
++ To generate notifications
+	- alert
+	- prompt (to take input from the user)
+	- confirm
+
+
++ console statements
+	- `console.log()`
+	- `console.info()`
+	- `console.warn()`
+	- `console.error()`
+
++ Spread Operator
+ 
+	- To change array elements from one array to another(swamp)
+```
+	...variableName
+```
++ Rest Parameter
+	+ To handle function paramters
+
+```
+...parameter
+
+```
+
++ Destructuring of Array & Objects
+
+
++ Functions
+
+ - function with functionname
+ ```
+ function demo(x,y){
+	 return x+y
+ }
+ demo()
+ ```
+ - Anonymous function
+ ```
+ let demo= function (x,y)
+ {
+	      return x+y
+ }
+ ```
+ - Arrow function
+ ```
+ let demo=  (x,y) => {
+	 return x*y
+ }
+ demo(3,4)
+ ```
+
++ for-in
+	- To get index values of an array
++ for-of
+	- To get elements in an array
+
++ forEach() --> (ES-5)
++ map() -->  (ES-6)
+
+
+###  DOM 
+
+	- Document Object Model
+	- document
+	- history
+	- window
+	- navigator
++ DOM methods
+	- `getElementById()`
+	- `getElementsByClassName()`
+	- `querySelector()`
+	- `innerText`
+	- `textContent`
+	- `append`
+	- `appendChild`
+	- `innerHTML`
+	- `setAttribute()`
+	- `classList`
+	- `style`
+	- `src`
+
+#### JSON
++ JavaScript Object Notation
+	- To exchange information between application and server
+
+```
+{
+	"name":"Kalyana Chakravarthi Paladugu",
+	"salary":"6.5LPA",
+	"designation":"MERN Developer",
+	"mobile":9807654321
+}
+```
++ Ajax call or Promises (fetch API) or axios
+
+
 ##### Reference Links
 - [Flaticon](https://www.flaticon.com/)
 - [SVG Icons](https://freesvg.org/)
