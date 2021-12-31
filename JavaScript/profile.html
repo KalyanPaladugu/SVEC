@@ -5,12 +5,65 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+      .card{
+         border: 1px solid lightgray;
+         margin-top: 10px;
+         border-radius: 10px;
+         padding-left: 20px;
+      }
+
+      .cards  {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+      }
+    </style>
 </head>
 <body>
+    <div class="cards">
+
+    </div>
   <script>
-      fetch('./data.json')
+      fetch('https://jsonplaceholder.typicode.com/posts')
       .then(response  => response.json()  )
-      .then(info => console.log(info) )
+      .then(info =>
+      //  console.log(info)
+    profile(info)
+ )
+
+
+ var cards=document.querySelector('.cards');
+let profile =(info)=>{
+
+info.map( cardobject =>{
+//  console.log(cardobject)
+
+let card=document.createElement('div');
+card.classList.add("card");
+card.style.width="20rem";
+
+let cardid=document.createElement('h1');
+cardid.textContent=cardobject.id;
+card.appendChild(cardid);
+
+
+let cardtitle=document.createElement('h4');
+cardtitle.textContent=cardobject.title;
+card.appendChild(cardtitle);
+
+let cardbody=document.createElement('p');
+    cardbody.textContent=cardobject.body;
+      card.appendChild(cardbody);
+
+
+cards.appendChild(card)
+})
+
+
+}
+
   </script>  
 </body>
 </html>

@@ -397,6 +397,100 @@ Task3:
 + Ajax call or Promises (fetch API) or axios
 
 
+#### ReactJS
+
+
+###### ReactJS Features
+
++ It is a Library
++ It follows component based Architecture
+	- Functional Component
+	- Class Component
+	- Pure Component
+	- Higher Order Component
++ It provides Vitrual DOM
++ It provides JSX (JavaScript and XML)
++ Unidirectional data flow
++ Single Page Applications
+
+
+
++ Props
+
+	- To pass data from one component to another component we will use Props
+	- Props are immutable
+
+	+ UnionBank (Functional)
+		- AndhraBank (Functional)
+		- CorporationBank (Class)
+
++ States
+
+	- In react to maintain information  we will use States
+	- We can maintain states in class component only (Before react16.8 version)
+	- To take state in react, Try to create constructor above render method and inside of class component
+	- use `rconst` snippet
+	```
+	constructor(){
+		super();
+		this.state={
+
+		}
+	}
+	```
+	- To update the state information in class component use `setState()` method
+
++  To update the information inclass class component we have to follow component life cycle methods
+	- `componentWillReceiveProps()`
+	- `componentWillMount()`
+	+ `componentDidMount()`
+	- `shouldComponentUpdate()`
+	- `componentWillUpdate()`
+	- `componentDidUpdate()`
+	- `componentWillUnmount()`
+##### Hooks
+
++ from react 16.8 Hooks are introduced
+
+- Parent - Child1 --> child2 --> child3
+- `useState()`
+- `useEffect()`
+- `useMemo()`
+- `useRef()`
+- `useContext()`
+
+
+
++ Project Environment setup
+	- [DownloadVisualStudioCode](https://code.visualstudio.com/download)
+	- [DownloadNodejs](https://nodejs.org/en/download/)
+	- install nodejs and check versions of `node` and `npm`
+		- `node -v`
+		- `npm -v`
+	- `webpack` and `babel`
+	- `create-react-app`
+		- `npm install create-react-app`
+			- `creat-react-app projectname`
+	- `npx create-react-app appname`
+
+
++ Index.html
++ index.js
++ App.js
+	+  IndexPage
+		- nav.js
+		- body.js
+		- footer.js
+
+		+ Home.js
+			- nav
+			- body
+			- footer
+		+ Login.js
+		+ Register
+		+ About
+		+ contact
+	
 ##### Reference Links
 - [Flaticon](https://www.flaticon.com/)
 - [SVG Icons](https://freesvg.org/)
