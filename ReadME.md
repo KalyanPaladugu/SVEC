@@ -415,6 +415,39 @@ Task3:
 
 
 
+
+
++ Project Environment setup
+	- [DownloadVisualStudioCode](https://code.visualstudio.com/download)
+	- [DownloadNodejs](https://nodejs.org/en/download/)
+	- install nodejs and check versions of `node` and `npm`
+		- `node -v`
+		- `npm -v`
+	- `webpack` and `babel`
+	- `create-react-app`
+		- `npm install create-react-app`
+			- `creat-react-app projectname`
+	- `npx create-react-app appname`
+
+
++ Index.html
++ index.js
++ App.js
+	+  IndexPage
+		- nav.js
+		- body.js
+		- footer.js
+
+		+ Home.js
+			- nav
+			- body
+			- footer
+		+ Login.js
+		+ Register
+		+ About
+		+ contact
+
+
 + Props
 
 	- To pass data from one component to another component we will use Props
@@ -461,36 +494,6 @@ Task3:
 
 
 
-+ Project Environment setup
-	- [DownloadVisualStudioCode](https://code.visualstudio.com/download)
-	- [DownloadNodejs](https://nodejs.org/en/download/)
-	- install nodejs and check versions of `node` and `npm`
-		- `node -v`
-		- `npm -v`
-	- `webpack` and `babel`
-	- `create-react-app`
-		- `npm install create-react-app`
-			- `creat-react-app projectname`
-	- `npx create-react-app appname`
-
-
-+ Index.html
-+ index.js
-+ App.js
-	+  IndexPage
-		- nav.js
-		- body.js
-		- footer.js
-
-		+ Home.js
-			- nav
-			- body
-			- footer
-		+ Login.js
-		+ Register
-		+ About
-		+ contact
-	
 ##### Reference Links
 - [Flaticon](https://www.flaticon.com/)
 - [SVG Icons](https://freesvg.org/)
