@@ -473,7 +473,7 @@ Task3:
 	```
 	- To update the state information in class component use `setState()` method
 
-+  To update the information inclass class component we have to follow component life cycle methods
++  To update the information in class component we have to follow component life cycle methods
 	- `componentWillReceiveProps()`
 	- `componentWillMount()`
 	+ `componentDidMount()`
@@ -484,6 +484,7 @@ Task3:
 ##### Hooks
 
 + from react 16.8 Hooks are introduced
+- To maintain information in Functional component we can use Hooks
 
 - Parent - Child1 --> child2 --> child3
 - `useState()`
@@ -493,6 +494,42 @@ Task3:
 - `useContext()`
 
 
+#### List Rendering
+
+### Event Handling & Form Handling
+
+
+- `onChange`
+- `onSubmit`
+- `preventDefault()`
+
+
+#### Routing in React
+	
++ To navigate (Route)  from one component to another
+	- install react-router-dom package by using
+	 `npm install react-router-dom`
+	- `BrowserRouter`
+	- `Routes`
+	- `Route`
+	- `Link`
+	- `path`
+	- `element`
+	
+
++ Redux
+
+- uname
+- pwword
+- email
+	- submit
+
+- update
+	- uname  -->  Null
+	- pword - -->  pword
+	- email  --> email
+
+		- submit
 
 ##### Reference Links
 - [Flaticon](https://www.flaticon.com/)
